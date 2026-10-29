@@ -1,0 +1,295 @@
+{
+  "slug": "smile-lovers",
+  "negocio": {
+    "nome": "Smile Lovers",
+    "logo": "brand/logo.png",
+    "whatsapp": "5541984999191",
+    "telefone": "(41) 98499-9191",
+    "unidades": [
+      {
+        "bairro": "Batel · Curitiba",
+        "endereco": "Av. Iguaçu, 2536 – Batel, Curitiba – PR, 80240-031",
+        "telefone": "(41) 98499-9191",
+        "horario": "Seg a sex, 8h às 21h · Sáb, 8h às 14h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#534fff",
+    "brand2": "#3b37d4",
+    "ink": "#373737",
+    "bg": "#fefefe",
+    "pulse": null,
+    "radius": "100px",
+    "registro": "editorial",
+    "fontDisplay": "Hanken Grotesk",
+    "fontBody": "Hanken Grotesk",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "Smile Club",
+            "href": "#smile-club"
+          },
+          {
+            "texto": "Como funciona",
+            "href": "#como-funciona"
+          },
+          {
+            "texto": "Perguntas",
+            "href": "#faq"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Batel · Curitiba",
+        "h1": "Odontologia e estética facial no Batel",
+        "lead": "Clínica na Avenida Iguaçu, em Curitiba. Tudo começa pela avaliação global: a equipe entende o que incomoda no seu sorriso antes de indicar qualquer tratamento.",
+        "cta": "Agendar avaliação",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "cardTitulo": "Agende sua avaliação",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Avaliação global",
+          "Clareamento",
+          "Facetas",
+          "Implantes",
+          "Alinhadores invisíveis",
+          "Harmonização facial",
+          "Ultraformer",
+          "Laser Lavieen",
+          "Smile Club"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "gigante",
+      "data": {
+        "titulo": "A Smile Lovers em números",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "380",
+            "rotulo": "avaliações de pacientes no Google",
+            "contar": 380
+          },
+          {
+            "valor": "6",
+            "rotulo": "dias de atendimento por semana",
+            "contar": 6
+          },
+          {
+            "valor": "21h",
+            "rotulo": "horário de fechamento, de segunda a sexta"
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A clínica",
+        "citacao": "Cuidar do sorriso como um hábito, não como um susto.",
+        "autor": "Smile Lovers Odontologia",
+        "texto": [
+          "A Smile Lovers fica na Avenida Iguaçu, no Batel, e reúne odontologia e estética facial no mesmo endereço. A primeira consulta é uma avaliação global: a equipe pergunta, examina e só então indica o que faz sentido tratar.",
+          "O ambiente foi pensado para quem tem medo de dentista, e o foco é a prevenção. Por isso existe o Smile Club, a assinatura de cuidado contínuo, e por isso a clínica atende até as 21h em dias úteis."
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "O que a Smile Lovers trata",
+        "lead": "Do clareamento ao implante, da toxina botulínica ao Ultraformer. A indicação de cada procedimento sai da avaliação, não de um pacote pronto.",
+        "itens": [
+          {
+            "nome": "Clareamento e limpeza",
+            "descricao": "O clareamento deixa os dentes mais claros e a limpeza profissional mantém a boca saudável entre uma revisão e outra.",
+            "icone": "estrela"
+          },
+          {
+            "nome": "Facetas de resina e de porcelana",
+            "descricao": "Renovam cor, formato e alinhamento dos dentes da frente. A escolha entre resina e porcelana depende do seu caso.",
+            "icone": "dente"
+          },
+          {
+            "nome": "Implantes e próteses",
+            "descricao": "Repõem dentes ausentes com função de mastigação e estética, em soluções personalizadas para cada boca.",
+            "icone": "osso"
+          },
+          {
+            "nome": "Ortodontia com alinhadores invisíveis",
+            "descricao": "Corrige o alinhamento dos dentes de forma discreta, com acompanhamento ao longo do tratamento.",
+            "icone": "check"
+          },
+          {
+            "nome": "Canal, periodontia e odontopediatria",
+            "descricao": "Tratamento de canal para manter o dente na boca, cuidado com as gengivas por especialistas em periodontia e atendimento para crianças.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Harmonização facial",
+            "descricao": "Toxina botulínica, ácido hialurônico, preenchimento labial e de sulcos, rinomodelação e bioestimuladores de colágeno, planejados pelas proporções do seu rosto.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Lifting com fios de PDO",
+            "descricao": "Lifting facial não cirúrgico, feito com fios de PDO.",
+            "icone": "seringa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "tecnologias",
+      "variant": "grade",
+      "data": {
+        "titulo": "Tecnologia que o paciente já pesquisa",
+        "itens": [
+          {
+            "nome": "Ultraformer",
+            "detalhe": "Ultrassom microfocado que estimula colágeno e remodela a pele, sem cirurgia.",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Laser Lavieen",
+            "detalhe": "Laser para melhorar a textura e a luminosidade da pele.",
+            "icone": "laser"
+          },
+          {
+            "nome": "Fios de PDO",
+            "detalhe": "Sustentação da pele e lifting facial não cirúrgico.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Alinhadores invisíveis",
+            "detalhe": "Ortodontia discreta, no dia a dia.",
+            "icone": "dente"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/pergunta.html"
+    },
+    {
+      "custom": "blocos/smile-club.html"
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Do primeiro contato ao retorno",
+        "itens": [
+          {
+            "titulo": "Mensagem no WhatsApp",
+            "texto": "Você conta o que procura e escolhe o dia e o horário. A clínica atende de segunda a sábado.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Avaliação global",
+            "texto": "A equipe entende o que incomoda no seu sorriso e explica as opções, na ordem em que fazem sentido.",
+            "icone": "estetoscopio"
+          },
+          {
+            "titulo": "Tratamento",
+            "texto": "Odontologia ou estética facial, no mesmo endereço e com a mesma equipe.",
+            "icone": "dente"
+          },
+          {
+            "titulo": "Retorno e manutenção",
+            "texto": "Revisões e limpezas mantêm o resultado ao longo dos anos. É a etapa que o Smile Club organiza.",
+            "icone": "agenda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Antes de agendar",
+        "itens": [
+          {
+            "p": "Como marco a consulta?",
+            "r": "Pelo WhatsApp, (41) 98499-9191, ou pelo telefone fixo da clínica."
+          },
+          {
+            "p": "Que horários a clínica atende?",
+            "r": "De segunda a sexta, das 8h às 21h, e aos sábados, das 8h às 14h."
+          },
+          {
+            "p": "Tenho medo de dentista. Posso ir mesmo assim?",
+            "r": "Pode. O ambiente foi pensado para quem sente desconforto no consultório, e a primeira consulta é uma avaliação, sem procedimento marcado de antemão."
+          },
+          {
+            "p": "A clínica atende emergências?",
+            "r": "Sim. Fale com a equipe pelo WhatsApp para combinar o atendimento."
+          },
+          {
+            "p": "A Smile Lovers trabalha com convênios?",
+            "r": "Não trabalha com planos odontológicos. A clínica oferece opções de pagamento acessíveis, que você combina na avaliação."
+          },
+          {
+            "p": "O que é o Smile Club?",
+            "r": "É a assinatura de odontologia preventiva da clínica, com acompanhamento contínuo e valor previsível. Os detalhes do plano são passados pela equipe."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica a Smile Lovers"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação global",
+        "lead": "Mande uma mensagem pelo WhatsApp e escolha o horário. A clínica atende de segunda a sábado, no Batel.",
+        "cta": "Agendar avaliação"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "completo",
+      "data": {
+        "aviso": "Proposta de site de demonstração, não é o site oficial da clínica. Todo procedimento é indicado após avaliação clínica, e os resultados variam de paciente para paciente."
+      }
+    }
+  ]
+}

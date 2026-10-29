@@ -1,0 +1,51 @@
+<section class="blk-club" id="smile-club">
+  <div class="wrap">
+    <div class="blk-club__cab">
+      <div data-reveal>
+        <p class="blk-club__eyebrow">Smile Club</p>
+        <h2 class="blk-club__titulo">Cuidar antes de doer, em três tempos</h2>
+      </div>
+      <p class="blk-club__lead" data-acende>O Smile Club é a odontologia preventiva por assinatura da Smile Lovers: acompanhamento contínuo, valor previsível e nenhuma surpresa na hora de pagar. A ideia é voltar à clínica por hábito, e não só quando algo dói.</p>
+    </div>
+    <ol class="blk-club__tempos">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-club__ico"><!--icone:conversa--></span>
+        <span class="blk-club__tag">Antes</span>
+        <strong>Sem medo de consultório</strong>
+        <span>Para quem tem receio de dentista, a primeira conversa acontece em um ambiente pensado para acalmar, e a avaliação global vem antes de qualquer procedimento.</span>
+      </li>
+      <li data-reveal style="--d:110ms">
+        <span class="blk-club__ico"><!--icone:agenda--></span>
+        <span class="blk-club__tag">Durante</span>
+        <strong>Consulta, agenda e pagamento sem atrito</strong>
+        <span>Marcar horário pelo WhatsApp, acompanhar o plano e pagar de forma previsível, sem papelada nem imprevisto.</span>
+      </li>
+      <li data-reveal style="--d:220ms">
+        <span class="blk-club__ico"><!--icone:estrela--></span>
+        <span class="blk-club__tag">Depois</span>
+        <strong>Acompanhamento que continua</strong>
+        <span>O tratamento termina, o cuidado não: a equipe segue disponível para as revisões e para o que surgir no caminho.</span>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-club{padding-block:var(--sp-section);background:color-mix(in srgb,var(--brand) 5%,var(--bg))}
+.blk-club .wrap{display:grid;gap:var(--sp-5)}
+.blk-club__eyebrow{margin:0;font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse)}
+.blk-club__titulo{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-club__lead{margin:0;max-width:40rem;line-height:1.65;color:var(--ink-soft)}
+.blk-club__tempos{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3);counter-reset:tempo}
+.blk-club__tempos li{position:relative;display:flex;flex-direction:column;gap:.5rem;padding:var(--sp-4);background:var(--bg-2);border:1px solid var(--line);border-radius:var(--r-lg)}
+.blk-club__ico{display:inline-flex;width:2.4rem;height:2.4rem;color:var(--pulse)}
+.blk-club__ico svg{width:100%;height:100%}
+.blk-club__tag{font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--ink-dim)}
+.blk-club__tempos strong{font-family:var(--f-display);font-size:1.45rem;font-weight:500;line-height:1.2;color:var(--brand)}
+.blk-club__tempos li>span:last-child{font-size:var(--t-sm);line-height:1.6;color:var(--ink-soft)}
+@media (min-width:64rem){
+  .blk-club__cab{display:grid;grid-template-columns:5fr 6fr;gap:var(--sp-6,6rem);align-items:end}
+  .blk-club__tempos{grid-template-columns:repeat(3,1fr);gap:var(--sp-4)}
+  .blk-club__tempos li{padding:var(--sp-5)}
+}
+</style>

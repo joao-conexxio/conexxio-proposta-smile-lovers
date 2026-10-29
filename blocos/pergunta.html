@@ -1,0 +1,27 @@
+<section class="blk-perg" id="pergunta">
+  <div class="wrap">
+    <p class="blk-perg__eyebrow" data-reveal>Como a avaliação começa</p>
+    <h2 class="blk-perg__titulo" data-acende>O quão feliz você está com o seu sorriso hoje?</h2>
+    <ol class="blk-perg__escala" data-reveal aria-label="Escala de 1 a 5, de pouco feliz a muito feliz">
+      <li style="--n:1"><span>1</span></li>
+      <li style="--n:2"><span>2</span></li>
+      <li style="--n:3"><span>3</span></li>
+      <li style="--n:4"><span>4</span></li>
+      <li style="--n:5"><span>5</span></li>
+    </ol>
+    <p class="blk-perg__pontas" data-reveal><span>Pouco feliz</span><span>Muito feliz</span></p>
+    <p class="blk-perg__texto" data-reveal>É a pergunta que abre a avaliação global na Smile Lovers. A resposta define o que a equipe olha primeiro: o que incomoda hoje, e só depois o que fazer a respeito.</p>
+  </div>
+</section>
+
+<style>
+.blk-perg{padding-block:var(--sp-section)}
+.blk-perg .wrap{max-width:44rem;text-align:center}
+.blk-perg__eyebrow{margin:0;font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse)}
+.blk-perg__titulo{margin:var(--sp-3) 0 0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-perg__escala{list-style:none;margin:var(--sp-5) auto 0;padding:0;display:flex;justify-content:center;gap:clamp(.5rem,2.5vw,1.25rem)}
+.blk-perg__escala li{display:grid;place-items:center;width:clamp(2.8rem,12vw,4.5rem);aspect-ratio:1;border-radius:50%;border:2px solid var(--brand);background:color-mix(in srgb,var(--brand) calc(var(--n)*20% - 12%),var(--bg));color:var(--ink);font-family:var(--f-display);font-size:1.25rem}
+.blk-perg__escala li:nth-child(n+4){color:var(--bg)}
+.blk-perg__pontas{display:flex;justify-content:space-between;max-width:26rem;margin:var(--sp-2) auto 0;font-size:var(--t-sm);color:var(--ink-dim)}
+.blk-perg__texto{margin:var(--sp-4) auto 0;max-width:34rem;line-height:1.65;color:var(--ink-soft)}
+</style>
